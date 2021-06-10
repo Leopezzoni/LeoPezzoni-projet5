@@ -37,14 +37,14 @@ cameras.forEach((camera, i) => {
    
    //boucle increment id produit//
     for (let i = 0; i < camera.quantity; i++) {
-      addIdBasket .push(camera.id);
+      addIdBasket.push(camera.id);
     }
   });
 
   function deleteCamera(id) {
-      let camera = camera(id);
-      if (camera.quantity > 1) {
-          camera.quantity--;
+      let camera = (id);
+      if (camera > 1) {
+          camera--;
       } else {
           cameras.splice(id, 1);
       }
@@ -85,7 +85,7 @@ cameras.forEach((camera, i) => {
           let products = addIdBasket;
 
           let formulaireClient = JSON.stringify({
-              contacts,
+              contact,
               products,
           });
           

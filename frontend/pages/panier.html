@@ -3,6 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/small.css" media="(max-width:575.98px)">
   <link rel="stylesheet" href="../style.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
   <meta name="description" content="panier orinoco"/>
@@ -14,7 +16,7 @@
         <img class="logo" src="../images/logo-orinoco.png" alt="logoorinoco"/>
         <nav>
             <a href="../pages/panier.html">Panier<i class="fas fa-shopping-cart"></i></a>
-            <a href="../index.html">Acceuil<i class="fas fa-store"></i></a>
+            <a href="../index.html">Accueil<i class="fas fa-store"></i></a>
         </nav>
     </header>
 
@@ -63,31 +65,31 @@
 
         <div>
             <label for="nom">Nom *:</label><br/>
-            <input type="text" id="nom" name="nom" required="required" placeholder="Leo"/>
+            <input type="text" id="nom" name="nom" required="required" placeholder=""/>
         </div>
 
         <div>
             <label for="prenom">Prenom *:</label><br/>
-            <input type="text" id="prenom" name="prenom" required="required" placeholder="Martin"/>
+            <input type="text" id="prenom" name="prenom" required="required" placeholder=""/>
         </div>
 
         <div>
             <label for="adresse">Adresse *:</label><br/>
-            <input type="text" id="adresse" name="adresse" required="required" placeholder="3 rue des cerises"/>
+            <input type="text" id="adresse" name="adresse" required="required" placeholder=""/>
         </div>
 
         <div>
             <label for="ville">Ville *:</label><br/>
-            <input type="text" id="ville" name="text" required="required" placeholder="Nice"/>
+            <input type="text" id="ville" name="text" required="required" placeholder=""/>
         </div>
 
         <div>
             <label for="email">E-mail *:</label><br/>
-            <input type="email" id="email" name="email" required="required" placeholder="martin@yahoo.fr"/>
+            <input type="email" id="email" name="email" required="required" placeholder=""/>
         </div>
 
         <input type="submit" value="Commander" id="envoiFormulaire"/>
-        <p>* Champ Obligatoire</p>
+        <p class="champ">* Champ Obligatoire</p>
     </form>
 
     <footer>

@@ -168,10 +168,15 @@ th {
 .container {
     width: 100%;
     height: 10rem;
-    border-color: 1px solid white;
+    border: 1px solid white;
     margin-bottom: 3rem;
     display: flex;
     justify-content: center;
+}
+
+.champ {
+    position: relative;
+    top: 10px;
 }
 
 td img {
