@@ -9,18 +9,18 @@ Afin de visualiser correctement le projet veuillez suivre les étapes ci dessous
 
 INTRODUCTION
 
-Voici mon 5 ème projet demander pour ma formation developpeur web ( chez Open Class Rooms). Pour chaque projet un scenario et un cahier des charges m'ait donner
+Voici mon 5 ème projet demandé pour ma formation developpeur web ( chez Open Class Rooms). Pour chaque projet un scenario et un cahier des charges m'est donné
 
 PRESENTATION DU PROJET
 
-Recrutée en tant que developpeur front-end par une entreprise de commerce en ligne ( Orinoco). On me demande de crée un MVP ( back end deja fournie) . 3 choix de type de produit me sont donner . Ce projet portera sur les apareils photos .
+Recruté en tant que developpeur front-end par une entreprise de commerce en ligne ( Orinoco). On me demande de crée un MVP ( back end deja fournie) . 3 choix de type de produit me sont donné . Ce projet portera sur les appareils photos .
 
 CAHIER MVP
 
 Le projet devra comprendre 4 pages :
 Une page de vue sous forme de liste
 
-Une page produits qui affiche l'élément séléctioner et permet de personaliser le produit avant de l ajouter au panier choix option non envoyer au serveur
+Une page produits qui affiche l'élément séléctionner et permet de personaliser le produit avant de l ajouter au panier choix option non envoyer au serveur
 
 Une page panier qui doit contenire un résumer des produits le prix total et un formulaire permettant de passer la commande
 
@@ -42,6 +42,6 @@ Pour les routes POST, l’objet contact envoyé au serveur doit contenir les cha
 
 ACTIONS SUPPLEMENTAIRES AJOUTER
 
-Page panier : possibilité de supprimer 1 prduits a la fois ou le panier entier
+Page panier : possibilité de supprimer 1 produits a la fois ou le panier entier
 
 Page confirmation : affichage du nom et prénom de client ainsi que sont adresse email
